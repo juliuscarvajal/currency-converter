@@ -5,7 +5,7 @@
 ### Running the App during Development
 
 The angular-seed project comes preconfigured with a local development webserver.  It is a node.js
-tool called [http-server][http-server].  You can start this webserver with `npm start` but you may choose to
+tool called http-server.  You can start this webserver with `npm start` but you may choose to
 install the tool globally:
 
 ```
