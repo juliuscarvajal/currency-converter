@@ -1,4 +1,4 @@
-# Simple Curency Converter (UI only)
+# Simple Currency Converter (UI only)
 
 ```
 http-server -a localhost -p 8000
