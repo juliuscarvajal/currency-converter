@@ -1,0 +1,25 @@
+<div class="container" style="padding-top:15px">
+    <div class="panel panel-default panel-responsive">
+        <div class="panel-body form-group" ng-controller="View1Ctrl">
+          <div style="padding-bottom:30px">
+            <div class="from-answer">{{from}} {{fromUnit.name}} equals</div>
+            <div class="to-answer">{{to}} {{toUnit.name}}</div>
+          </div>
+
+          <div class="form" style="padding-right:4px;padding-bottom:4px">
+                <div style="padding-bottom:10px">
+                    <input class="ccw_data" style="width:80px" type="number" ng-model="from" step="any"></input>
+                    <select class="ccw_data" style="margin-left:5px;width:140px" ng-model="fromUnit" ng-options="unit.name for unit in units"></select>
+                </div>
+                <div style="padding-bottom:10px">
+                    <input class="ccw_data" style="width:80px" type="number" ng-model="to" step="any"></input>
+                    <select class="ccw_data" style="margin-left:5px;width:140px" ng-model="toUnit" ng-options="unit.name for unit in units"></select>
+                </div>
+            </div>
+            <div class="chart">
+                <img id="ccw_chart" src="https://encrypted.google.com/finance/chart?es_sm=91&amp;q=CURRENCY:AUDUSD&amp;tkr=1&amp;p=5Y&amp;chst=vkc&amp;chs=229x94&amp;chsc=1&amp;ei=lKA0Vf_gOsS0mwW9wICQBw" data-src="https://encrypted.google.com/finance/chart?es_sm=91&amp;q=CURRENCY:AUDUSD&amp;tkr=1&amp;p=5Y&amp;chst=vkc" style="height:80px;width:100%" class="chart_height" alt="">
+            </div>
+
+        </div>
+    </div>
+</div>
